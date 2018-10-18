@@ -1,0 +1,179 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -gnatwa
+A -gnata
+A -gnat12
+A -g
+A -gnateE
+A -gnato
+A -fstack-check=specific
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U test_example%b	test_example.adb	0945a452 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W test_assertions%s	test_assertions.adb	test_assertions.ali
+W trabajo_pr3%s		trabajo_pr3.adb		trabajo_pr3.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_assertions.ads	20180920100152 c1dd7c95 test_assertions%s
+D test_example.adb	20181018201810 26d0dcb8 test_example%b
+D trabajo_pr3.ads	20181018200524 abd89bb1 trabajo_pr3%s
+X 1 ada.ads
+16K9*Ada 20e8 25|1r6 1r28
+X 6 a-textio.ads
+49K13*Text_IO 471e16 25|1w10 1r32
+263U14*Put_Line 25|18s10 20s10 34s10 36s10 50s10 52s10 67s10 69s10 83s10
+. 85s10 99s10 101s10 118s10 120s10 134s10 136s10 150s10 152s10 166s10 168s10
+. 182s10 184s10 198s10 200s10 218s10 220s10 235s10 237s10 252s10 254s10 269s10
+. 271s10 286s10 288s10 303s10 305s10 324s10 326s10 328s10 344s10 346s10 361s10
+. 363s10 378s10 380s10 395s10 397s10 405s4 406s4 407s4 417s4 418s4 428s4
+. 429s4 439s4 440s4
+X 10 system.ads
+37K9*System 200e11 25|4r6 323r12
+X 11 s-assert.ads
+41K16*Assertions 50e22 25|4w13 323r19
+43X4*Assert_Failure 25|323r30
+X 24 test_assertions.ads
+3K9*Test_Assertions 18e20 25|3w6 3r28
+4X4*Assertion_Error 25|17r12 33r12 49r12 66r12 82r12 98r12 117r12 133r12
+. 149r12 165r12 181r12 197r12 217r12 234r12 251r12 268r12 285r12 302r12 325r11
+. 343r12 360r12 377r12 394r12
+12U14*Assert_True 25|15s7 31s7 47s7 64s7 80s7 96s7 115s7 131s7 147s7 163s7
+. 179s7 195s7 215s7 232s7 249s7 266s7 283s7 300s7 341s7 358s7 375s7 392s7
+X 25 test_example.adb
+6U11*Test_Example 6b11 447l5 447t17
+9U14 Test_Space_Counter_1 9b14 21l8 21t28 408s4
+10a7 Msg{string} 15r35 18r20 20r20
+11a7 X{string} 14r34
+12i7 resultado{integer} 14m7 15r20
+25U14 Test_Space_Counter_2 25b14 37l8 37t28 409s4
+26a7 Msg{string} 31r35 34r20 36r20
+27a7 X{string} 30r34
+28i7 resultado{integer} 30m7 31r20
+41U14 Test_Space_Counter_3 41b14 53l8 53t28 410s4
+42a7 Msg{string} 47r35 50r20 52r20
+43a7 X{string} 46r34
+44i7 resultado{integer} 46m7 47r20
+58U14 Test_Space_Counter_4 58b14 70l8 70t28 411s4
+59a7 Msg{string} 64r35 67r20 69r20
+60a7 X{string} 63r34
+61i7 resultado{integer} 63m7 64r20
+74U14 Test_Space_Counter_5 74b14 86l8 86t28 412s4
+75a7 Msg{string} 80r36 83r20 85r20
+76a7 X{string} 79r34
+77i7 resultado{integer} 79m7 80r20
+90U14 Test_Space_Counter_6 90b14 102l8 102t28 413s4
+91a7 Msg{string} 96r35 99r20 101r20
+92a7 X{string} 95r34
+93i7 resultado{integer} 95m7 96r20
+109U14 Test_Lower_Case_Counter_1 109b14 121l8 121t33 419s4
+110a7 Msg{string} 115r35 118r20 120r20
+111a7 X{string} 114r39
+112i7 resultado{integer} 114m7 115r20
+125U14 Test_Lower_Case_Counter_2 125b14 137l8 137t33 420s4
+126a7 Msg{string} 131r35 134r20 136r20
+127a7 X{string} 130r39
+128i7 resultado{integer} 130m7 131r20
+141U14 Test_Lower_Case_Counter_3 141b14 153l8 153t33 421s4
+142a7 Msg{string} 147r36 150r20 152r20
+143a7 X{string} 146r39
+144i7 resultado{integer} 146m7 147r20
+157U14 Test_Lower_Case_Counter_4 157b14 169l8 169t33 422s4
+158a7 Msg{string} 163r35 166r20 168r20
+159a7 X{string} 162r39
+160i7 resultado{integer} 162m7 163r20
+173U14 Test_Lower_Case_Counter_5 173b14 185l8 185t33 423s4
+174a7 Msg{string} 179r35 182r20 184r20
+175a7 X{string} 178r38
+176i7 resultado{integer} 178m7 179r20
+189U14 Test_Lower_Case_Counter_6 189b14 201l8 201t33 424s4
+190a7 Msg{string} 195r35 198r20 200r20
+191a7 X{string} 194r39
+192i7 resultado{integer} 194m7 195r20
+209U14 Test_Upper_Case_Counter_1 209b14 221l8 221t33 430s4
+210a7 Msg{string} 215r35 218r20 220r20
+211a7 X{string} 214r39
+212i7 resultado{integer} 214m7 215r20
+226U14 Test_Upper_Case_Counter_2 226b14 238l8 238t33 431s4
+227a7 Msg{string} 232r35 235r20 237r20
+228a7 X{string} 231r39
+229i7 resultado{integer} 231m7 232r20
+243U14 Test_Upper_Case_Counter_3 243b14 255l8 255t33 432s4
+244a7 Msg{string} 249r35 252r20 254r20
+245a7 X{string} 248r39
+246i7 resultado{integer} 248m7 249r20
+260U14 Test_Upper_Case_Counter_4 260b14 272l8 272t33 433s4
+261a7 Msg{string} 266r35 269r20 271r20
+262a7 X{string} 265r39
+263i7 resultado{integer} 265m7 266r20
+277U14 Test_Upper_Case_Counter_5 277b14 289l8 289t33 434s4
+278a7 Msg{string} 283r42 286r20 288r20
+279a7 X{string} 282r39 283r32
+280i7 resultado{integer} 282m7 283r20
+294U14 Test_Upper_Case_Counter_6 294b14 306l8 306t33 435s4
+295a7 Msg{string} 300r35 303r20 305r20
+296a7 X{string} 299r39
+297i7 resultado{integer} 299m7 300r20
+314U14 Test_String_C_Counter_1 314b14 330l8 330t31 441s4
+315a7 Msg{string} 324r20 326r20 328r20
+316a7 X{string} 320r49
+317i7 resultado{integer} 318r28 320m7
+335U14 Test_String_C_Counter_2 335b14 347l8 347t31 442s4
+336a7 Msg{string} 341r35 344r20 346r20
+337a7 X{string} 340r37
+338i7 resultado{integer} 340m7 341r20
+352U14 Test_String_C_Counter_3 352b14 364l8 364t31 443s4
+353a7 Msg{string} 358r35 361r20 363r20
+354a7 X{string} 357r37
+355i7 resultado{integer} 357m7 358r20
+369U14 Test_String_C_Counter_4 369b14 381l8 381t31 444s4
+370a7 Msg{string} 375r35 378r20 380r20
+371a7 X{string} 374r37
+372i7 resultado{integer} 374m7 375r20
+386U14 Test_String_C_Counter_5 386b14 398l8 398t31 445s4
+387a7 Msg{string} 392r35 395r20 397r20
+388a7 X{string} 391r37
+389i7 resultado{integer} 391m7 392r20
+X 26 trabajo_pr3.ads
+1K9*Trabajo_Pr3 25|2w6 2r28 320r20 26|71e16
+5V13*Space_Counter{integer} 25|14s20 30s20 46s20 63s20 79s20 95s20
+20V13*Upper_Case_Counter{integer} 25|214s20 231s20 248s20 265s20 282s20 299s20
+36V13*Lower_Case_Counter{integer} 25|114s20 130s20 146s20 162s20 178s19 194s20
+55V13*String_C_Counter{integer} 25|320s32 340s20 357s20 374s20 391s20
+

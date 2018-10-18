@@ -1,0 +1,259 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatwa
+A -gnata
+A -gnat12
+A -g
+A -gnateE
+A -gnato
+A -fstack-check
+A -gnatc
+P GP FX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U test_example%b	test_example.adb	e25e3cb9 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W test_assertions%s	test_assertions.adb	test_assertions.ali
+W trabajo_pr3%s		trabajo_pr3.adb		trabajo_pr3.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_assertions.ads	20180920100152 c1dd7c95 test_assertions%s
+D test_example.adb	20181018145452 cdcb4453 test_example%b
+D trabajo_pr3.ads	20181018200524 abd89bb1 trabajo_pr3%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r28
+X 4 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r32
+263U14*Put_Line 14|18s10 20s10 34s10 36s10 50s10 52s10 67s10 69s10 83s10
+. 85s10 99s10 101s10 116s10 118s10 132s10 134s10 148s10 150s10 165s10 167s10
+. 181s10 183s10 197s10 199s10 213s10 215s10 229s10 231s10 245s10 247s10 261s10
+. 263s10 277s10 279s10 293s10 295s10 313s10 315s10 330s10 332s10 348s10 350s10
+. 365s10 367s10 382s10 384s10 400s10 402s10 418s10 420s10 422s10 439s10 441s10
+. 456s10 458s10 474s10 476s10 492s10 494s10 504s4 505s4 506s4 522s4 523s4
+. 533s4 534s4 544s4 545s4
+X 7 system.ads
+37K9*System 200e11 14|4r6 417r12
+X 8 s-assert.ads
+41K16*Assertions 50e22 14|4w13 417r19
+43X4*Assert_Failure 14|417r30
+X 13 test_assertions.ads
+3K9*Test_Assertions 18e20 14|3w6 3r28
+4X4*Assertion_Error 14|17r12 33r12 49r12 66r12 82r12 98r12 115r12 131r12
+. 147r12 164r12 180r12 196r12 212r12 228r12 244r12 260r12 276r12 292r12 312r12
+. 329r12 347r12 364r12 381r12 399r12 419r11 438r12 455r12 473r12 491r12
+12U14*Assert_True 14|15s7 31s7 47s7 64s7 80s7 96s7 113s7 129s7 145s7 162s7
+. 178s7 194s7 210s7 226s7 242s7 258s7 274s7 290s7 310s7 327s7 345s7 362s7
+. 379s7 397s7 436s7 453s7 471s7 489s7
+X 14 test_example.adb
+6U11*Test_Example 6b11 552l5 552t17
+9U14 Test_Space_Counter_1 21l8 21t28 507s4
+10a7 Msg{string} 15r35 18r20 20r20
+11a7 X{string} 14r34
+12i7 resultado{integer} 14m7 15r20
+25U14 Test_Space_Counter_2 37l8 37t28 508s4
+26a7 Msg{string} 31r35 34r20 36r20
+27a7 X{string} 30r34
+28i7 resultado{integer} 30m7 31r20
+41U14 Test_Space_Counter_3 53l8 53t28 509s4
+42a7 Msg{string} 47r35 50r20 52r20
+43a7 X{string} 46r34
+44i7 resultado{integer} 46m7 47r20
+58U14 Test_Space_Counter_4 70l8 70t28 510s4
+59a7 Msg{string} 64r35 67r20 69r20
+60a7 X{string} 63r34
+61i7 resultado{integer} 63m7 64r20
+74U14 Test_Space_Counter_5 86l8 86t28 511s4
+75a7 Msg{string} 80r36 83r20 85r20
+76a7 X{string} 79r34
+77i7 resultado{integer} 79m7 80r20
+90U14 Test_Space_Counter_6 102l8 102t28 512s4
+91a7 Msg{string} 96r35 99r20 101r20
+92a7 X{string} 95r34
+93i7 resultado{integer} 95m7 96r20
+107U14 Test_Space_Counter_7 119l8 119t28 513s4
+108a7 Msg{string} 113r35 116r20 118r20
+109a7 X{string} 112r34
+110i7 resultado{integer} 112m7 113r20
+123U14 Test_Space_Counter_8 135l8 135t28 514s4
+124a7 Msg{string} 129r35 132r20 134r20
+125a7 X{string} 128r34
+126i7 resultado{integer} 128m7 129r20
+139U14 Test_Space_Counter_9 151l8 151t28 515s4
+140a7 Msg{string} 145r35 148r20 150r20
+141a7 X{string} 144r34
+142i7 resultado{integer} 144m7 145r20
+156U14 Test_Space_Counter_10 168l8 168t29 516s4
+157a7 Msg{string} 162r35 165r20 167r20
+158a7 X{string} 161r34
+159i7 resultado{integer} 161m7 162r20
+172U14 Test_Space_Counter_11 184l8 184t29 517s4
+173a7 Msg{string} 178r36 181r20 183r20
+174a7 X{string} 177r34
+175i7 resultado{integer} 177m7 178r20
+188U14 Test_Space_Counter_12 200l8 200t29 518s4
+189a7 Msg{string} 194r35 197r20 199r20
+190a7 X{string} 193r34
+191i7 resultado{integer} 193m7 194r20
+204U14 Test_Lower_Case_Counter_1 216l8 216t33 524s4
+205a7 Msg{string} 210r35 213r20 215r20
+206a7 X{string} 209r39
+207i7 resultado{integer} 209m7 210r20
+220U14 Test_Lower_Case_Counter_2 232l8 232t33 525s4
+221a7 Msg{string} 226r35 229r20 231r20
+222a7 X{string} 225r39
+223i7 resultado{integer} 225m7 226r20
+236U14 Test_Lower_Case_Counter_3 248l8 248t33 526s4
+237a7 Msg{string} 242r36 245r20 247r20
+238a7 X{string} 241r39
+239i7 resultado{integer} 241m7 242r20
+252U14 Test_Lower_Case_Counter_4 264l8 264t33 527s4
+253a7 Msg{string} 258r35 261r20 263r20
+254a7 X{string} 257r39
+255i7 resultado{integer} 257m7 258r20
+268U14 Test_Lower_Case_Counter_5 280l8 280t33 528s4
+269a7 Msg{string} 274r35 277r20 279r20
+270a7 X{string} 273r38
+271i7 resultado{integer} 273m7 274r20
+284U14 Test_Lower_Case_Counter_6 296l8 296t33 529s4
+285a7 Msg{string} 290r35 293r20 295r20
+286a7 X{string} 289r39
+287i7 resultado{integer} 289m7 290r20
+304U14 Test_Upper_1 316l8 316t20 535s4
+305a7 Msg{string} 310r35 313r20 315r20
+306a7 X{string} 309r39
+307i7 resultado{integer} 309m7 310r20
+321U14 Test_Upper_2 333l8 333t20 536s4
+322a7 Msg{string} 327r35 330r20 332r20
+323a7 X{string} 326r39
+324i7 resultado{integer} 326m7 327r20
+339U14 Test_Upper_3 351l8 351t20 537s4
+340a7 Msg{string} 345r35 348r20 350r20
+341a7 X{string} 344r39
+342i7 resultado{integer} 344m7 345r20
+356U14 Test_Upper_4 368l8 368t20 538s4
+357a7 Msg{string} 362r35 365r20 367r20
+358a7 X{string} 361r39
+359i7 resultado{integer} 361m7 362r20
+373U14 Test_Upper_5 385l8 385t20 539s4
+374a7 Msg{string} 379r42 382r20 384r20
+375a7 X{string} 378r39 379r32
+376i7 resultado{integer} 378m7 379r20
+391U14 Test_Upper_6 403l8 403t20 540s4
+392a7 Msg{string} 397r35 400r20 402r20
+393a7 X{string} 396r39
+394i7 resultado{integer} 396m7 397r20
+408U14 Test_String_C_Counter_1 424l8 424t31 546s4
+409a7 Msg{string} 418r20 420r20 422r20
+410a7 X{string} 414r49
+411i7 resultado{integer} 412r28 414m7
+430U14 Test_String_C_Counter_2 442l8 442t31 547s4
+431a7 Msg{string} 436r35 439r20 441r20
+432a7 X{string} 435r37
+433i7 resultado{integer} 435m7 436r20
+447U14 Test_String_C_Counter_3 459l8 459t31 548s4
+448a7 Msg{string} 453r35 456r20 458r20
+449a7 X{string} 452r37
+450i7 resultado{integer} 452m7 453r20
+465U14 Test_String_C_Counter_4 477l8 477t31 549s4
+466a7 Msg{string} 471r35 474r20 476r20
+467a7 X{string} 470r37
+468i7 resultado{integer} 470m7 471r20
+483U14 Test_String_C_Counter_5 495l8 495t31 550s4
+484a7 Msg{string} 489r35 492r20 494r20
+485a7 X{string} 488r37
+486i7 resultado{integer} 488m7 489r20
+X 15 trabajo_pr3.ads
+1K9*Trabajo_Pr3 14|2w6 2r28 414r20 15|71e16
+5V13*Space_Counter{integer} 14|14s20 30s20 46s20 63s20 79s20 95s20 112s20
+. 128s20 144s20 161s20 177s20 193s20
+20V13*Upper_Case_Counter{integer} 14|309s20 326s20 344s20 361s20 378s20 396s20
+36V13*Lower_Case_Counter{integer} 14|209s20 225s20 241s20 257s20 273s19 289s20
+55V13*String_C_Counter{integer} 14|414s32 435s20 452s20 470s20 488s20
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS test_example__test_space_counter_1 0
+GG EK_GLOBALS test_example__test_space_counter_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_2 0
+GG EK_GLOBALS test_example__test_space_counter_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_3 0
+GG EK_GLOBALS test_example__test_space_counter_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_4 0
+GG EK_GLOBALS test_example__test_space_counter_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_5 0
+GG EK_GLOBALS test_example__test_space_counter_5 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_6 0
+GG EK_GLOBALS test_example__test_space_counter_6 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_7 0
+GG EK_GLOBALS test_example__test_space_counter_7 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_8 0
+GG EK_GLOBALS test_example__test_space_counter_8 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_9 0
+GG EK_GLOBALS test_example__test_space_counter_9 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_10 0
+GG EK_GLOBALS test_example__test_space_counter_10 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_11 0
+GG EK_GLOBALS test_example__test_space_counter_11 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_space_counter_12 0
+GG EK_GLOBALS test_example__test_space_counter_12 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__space_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_lower_case_counter_1 0
+GG EK_GLOBALS test_example__test_lower_case_counter_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__lower_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_lower_case_counter_2 0
+GG EK_GLOBALS test_example__test_lower_case_counter_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__lower_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_lower_case_counter_3 0
+GG EK_GLOBALS test_example__test_lower_case_counter_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__lower_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_lower_case_counter_4 0
+GG EK_GLOBALS test_example__test_lower_case_counter_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__lower_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_lower_case_counter_5 0
+GG EK_GLOBALS test_example__test_lower_case_counter_5 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__lower_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_lower_case_counter_6 0
+GG EK_GLOBALS test_example__test_lower_case_counter_6 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__lower_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_upper_1 0
+GG EK_GLOBALS test_example__test_upper_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__upper_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_upper_2 0
+GG EK_GLOBALS test_example__test_upper_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__upper_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_upper_3 0
+GG EK_GLOBALS test_example__test_upper_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__upper_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_upper_4 0
+GG EK_GLOBALS test_example__test_upper_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__upper_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_upper_5 0
+GG EK_GLOBALS test_example__test_upper_5 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__upper_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_upper_6 0
+GG EK_GLOBALS test_example__test_upper_6 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__upper_case_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_string_c_counter_1 0
+GG EK_GLOBALS test_example__test_string_c_counter_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 2 ada__text_io__put_line__2 trabajo_pr3__string_c_counter local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_string_c_counter_2 0
+GG EK_GLOBALS test_example__test_string_c_counter_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__string_c_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_string_c_counter_3 0
+GG EK_GLOBALS test_example__test_string_c_counter_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__string_c_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_string_c_counter_4 0
+GG EK_GLOBALS test_example__test_string_c_counter_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__string_c_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example__test_string_c_counter_5 0
+GG EK_GLOBALS test_example__test_string_c_counter_5 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 trabajo_pr3__string_c_counter test_assertions__assert_true__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_example 0
+GG EK_GLOBALS test_example local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 6 ada__text_io__put_line__2 trabajo_pr3__space_counter trabajo_pr3__upper_case_counter trabajo_pr3__lower_case_counter trabajo_pr3__string_c_counter test_assertions__assert_true__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

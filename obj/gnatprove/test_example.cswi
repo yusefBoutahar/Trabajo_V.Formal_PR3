@@ -1,0 +1,14 @@
+20181018200538
+-c
+-x
+ada
+-gnatA
+-gnatwa
+-gnata
+-gnat12
+-g
+-gnateE
+-gnato
+-fstack-check
+-gnatc
+-gnates=D:\Escritorio\SPARK_Lab_01\obj\gnatprove\c7690190.tmp

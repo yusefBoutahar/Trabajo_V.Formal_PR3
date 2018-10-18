@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "Test_Trabajo_Pr3",
+      "sloc": [
+        {
+          "file": "test_trabajo_pr3.adb",
+          "line": 6
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.84877996798605E-03,
+    "globals (basic)": 1.11725300550461E-01,
+    "globals/properties (advanced)": 2.59432382881641E-02,
+    "flow analysis": 1.77723995875567E-04,
+    "codepeer results": 7.05699994796305E-06,
+    "init_why_sections": 3.24330991134048E-04,
+    "translation of standard": 4.67857299372554E-03,
+    "translation of compilation unit": 6.01217746734619E-02,
+    "proof": 5.13299983140314E-06
+  }
+}

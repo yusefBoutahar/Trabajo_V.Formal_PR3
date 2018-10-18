@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__test_example.o
+[PROJECT FILES]
+D:\Escritorio\SPARK_Lab_01\default.gpr
+20180925104714
+[BOUND OBJECT FILES]
+D:\Escritorio\SPARK_Lab_01\obj\test_assertions.o
+D:\Escritorio\SPARK_Lab_01\obj\trabajo_pr3.o
+D:\Escritorio\SPARK_Lab_01\obj\test_example.o
+[GENERATED SOURCE FILES]
+b__test_example.ads
+b__test_example.adb
+b__test_example.ali
+[RESULTING OPTIONS]
+-LD:\Escritorio\SPARK_Lab_01\obj\
+-LD:\Escritorio\SPARK_Lab_01\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

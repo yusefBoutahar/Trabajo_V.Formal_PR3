@@ -1,0 +1,73 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatwa
+A -gnata
+A -gnat12
+A -g
+A -gnateE
+A -gnato
+A -fstack-check
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U trabajo_pr3%b		trabajo_pr3.adb		30fd2b99 OO PK
+
+U trabajo_pr3%s		trabajo_pr3.ads		abd89bb1 OO PK
+
+D system.ads		20180524051738 32a08138 system%s
+D trabajo_pr3.ads	20181018200524 abd89bb1 trabajo_pr3%s
+D trabajo_pr3.adb	20181018201216 9b25b028 trabajo_pr3%b
+X 2 trabajo_pr3.ads
+1K9*Trabajo_Pr3 71l5 71e16 3|1b14 86l5 86t16
+5V13*Space_Counter{integer} 5>28 11r39 12r21 3|5b13 18l8 18t21
+5a28 Str{string} 11r19 13r33 14r22 16r34 17r25 3|5b28 11r16 12r13
+13i28 i{integer} 14r27
+16i29 i{integer} 17r30
+20V13*Upper_Case_Counter{integer} 20>33 26r40 27r18 3|22b13 37l8 37t26
+20a33 Str{string} 26r20 28r31 29r23 29r41 31r32 32r21 32r41 3|22b33 27r10
+. 30r16 31r14 31r34 34r44
+28i26 i{integer} 29r27 29r45
+31i27 i{integer} 32r25 32r45
+36V13*Lower_Case_Counter{integer} 36>33 45r40 46r18 3|41b13 63l8 63t26
+36a33 Str{string} 41r16 42r11 43r11 45r20 47r31 48r23 48r41 50r32 51r21 51r41
+. 3|41b33 47r11 47r31 47r44 50r10 51r18 52r14 52r34 57r35 58r35 59r45
+47i26 i{integer} 48r27 48r45
+50i27 i{integer} 51r25 51r45
+55V13*String_C_Counter{integer} 55>31 63r41 64r23 3|67b13 83l8 83t24
+55a31 Str{string} 60r30 61r18 63r21 65r36 66r27 68r37 69r27 3|67b31 73r16
+. 74r13 79r45 80r34
+60i25 J{integer} 61r22
+65i31 i{integer} 66r32
+68i32 i{integer} 69r32
+X 3 trabajo_pr3.adb
+6i4 result{integer} 13m13 13r23 15r32 17r14
+11i11 i{integer} 12r17 15r42
+25i4 result{integer} 28r17 32m13 32r23 34r32 36r14
+30i11 i{integer} 31r18 31r38 34r42
+44i7 result{integer} 48r17 53m13 53r23 59r32 62r14
+45i7 i{integer} 50m7 51r13 52r18 52r38 55m10 55r14 56r43 57r32 58r32 59r43
+71i4 result{integer} 75r20 77m10 77r18 78r32 82r14
+73i11 i{integer} 74r17 78r42 79r56
+79i40 k{integer} 80r38
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS trabajo_pr3__space_counter 0
+GG EK_GLOBALS trabajo_pr3__space_counter local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS trabajo_pr3__upper_case_counter 0
+GG EK_GLOBALS trabajo_pr3__upper_case_counter local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS trabajo_pr3__lower_case_counter 0
+GG EK_GLOBALS trabajo_pr3__lower_case_counter local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS trabajo_pr3__string_c_counter 0
+GG EK_GLOBALS trabajo_pr3__string_c_counter local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS trabajo_pr3 0
+GG EK_GLOBALS trabajo_pr3 local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

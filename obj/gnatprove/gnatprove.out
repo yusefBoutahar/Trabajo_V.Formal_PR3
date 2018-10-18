@@ -1,0 +1,37 @@
+Summary of SPARK analysis
+=========================
+
+---------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total        Flow   Interval   CodePeer      Provers   Justified   Unproved
+---------------------------------------------------------------------------------------------------------
+Data Dependencies                 .           .          .          .            .           .          .
+Flow Dependencies                 .           .          .          .            .           .          .
+Initialization                   22          22          .          .            .           .          .
+Non-Aliasing                      .           .          .          .            .           .          .
+Run-time Checks                  27           .          .          .    27 (CVC4)           .          .
+Assertions                       15           .          .          .    15 (CVC4)           .          .
+Functional Contracts              5           .          .          .     5 (CVC4)           .          .
+LSP Verification                  .           .          .          .            .           .          .
+---------------------------------------------------------------------------------------------------------
+Total                            69    22 (32%)          .          .     47 (68%)           .          .
+
+
+Analyzed 5 units
+in unit example, 2 subprograms and packages out of 2 analyzed
+  Example at example.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Example.Max at example.ads:5 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+in unit test_assertions, 0 subprograms and packages out of 4 analyzed
+  Test_Assertions.Assert_False at test_assertions.ads:9 skipped
+  Test_Assertions.Assert_False at test_assertions.ads:15 skipped
+  Test_Assertions.Assert_True at test_assertions.ads:6 skipped
+  Test_Assertions.Assert_True at test_assertions.ads:12 skipped
+in unit test_example, 0 subprograms and packages out of 1 analyzed
+  Test_Example at test_example.adb:6 skipped
+in unit test_trabajo_pr3, 0 subprograms and packages out of 1 analyzed
+  Test_Trabajo_Pr3 at test_trabajo_pr3.adb:6 skipped
+in unit trabajo_pr3, 5 subprograms and packages out of 5 analyzed
+  Trabajo_Pr3 at trabajo_pr3.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Trabajo_Pr3.Lower_Case_Counter at trabajo_pr3.ads:36 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (20 checks)
+  Trabajo_Pr3.Space_Counter at trabajo_pr3.ads:5 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (6 checks)
+  Trabajo_Pr3.String_C_Counter at trabajo_pr3.ads:55 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (10 checks)
+  Trabajo_Pr3.Upper_Case_Counter at trabajo_pr3.ads:20 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (10 checks)

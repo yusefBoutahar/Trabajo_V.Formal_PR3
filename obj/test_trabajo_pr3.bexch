@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__test_trabajo_pr3.o
+[PROJECT FILES]
+C:\Users\boutahar\Downloads\Trabajo_V.Formal_PR3\default.gpr
+20181018202738
+[BOUND OBJECT FILES]
+C:\Users\boutahar\Downloads\Trabajo_V.Formal_PR3\obj\test_assertions.o
+C:\Users\boutahar\Downloads\Trabajo_V.Formal_PR3\obj\trabajo_pr3.o
+C:\Users\boutahar\Downloads\Trabajo_V.Formal_PR3\obj\test_trabajo_pr3.o
+[GENERATED SOURCE FILES]
+b__test_trabajo_pr3.ads
+b__test_trabajo_pr3.adb
+b__test_trabajo_pr3.ali
+[RESULTING OPTIONS]
+-LC:\Users\boutahar\Downloads\Trabajo_V.Formal_PR3\obj\
+-LC:\Users\boutahar\Downloads\Trabajo_V.Formal_PR3\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
